@@ -1,0 +1,121 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+}
+
+header img{
+    margin-left: 60px;
+    margin-top: 2px;
+}
+
+.menuCabecera{
+    display: flex;
+}
+
+.menuCabecera li{
+    margin-right: 50px;
+}
+
+#botonUnete{
+    margin-left: 70px;
+    background-color: #9BF00B;
+    border-radius: 0px;
+    border-color: transparent;
+    color: #2f3b30;
+    font-weight: bolder;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#botonInfo{
+    color: #9BF00B;
+    border-radius: 0px;
+    border-color: transparent;
+    background-color: transparent;
+    font-weight: bolder;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.banner{
+    width: 100%;
+    padding-top: 230px;
+    padding-bottom: 250px;
+    color: white;
+    background-image: url(img/banner.jpg);
+    background-size: 100%;
+}
+
+
+
+.banner h1{
+    
+    padding-left: 70px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.banner p{
+    padding-left: 70px;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.redes{
+    padding-left: 60px;
+    display: flex;
+}
+
+.redes img{
+    margin-top: 4px;
+}
+
+footer{
+    display: flex;
+    padding-left: 25px;
+    background-color: #F2F2F2;
+    height: 300px;
+}
+
+footer h2{
+    margin-left: 40px;
+}
+
+footer li{
+    margin-bottom: 20px;
+}
+
+.menuRecurs{
+    margin-left: 100px;
+    width: 15%;
+}
+
+.menuExtra{
+    margin-left: 400px;
+    margin-top: 250px;
+}
+
+.menuExtra ul{
+    display: flex;
+}
+.menuExtra li{
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
